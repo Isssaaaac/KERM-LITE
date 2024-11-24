@@ -10,26 +10,26 @@ module.exports = {
    ANTILINK: toBool(process.env.ANTI_LINK) || false,
    HEROKU: toBool(process.env.HEROKU) || false,
    AUTO_READ: toBool(process.env.AUTO_READ) || false,
-   AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || false,
+   AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || true,
    DELETED_LOG: toBool(process.env.DELETED_LOG) || true,
    STATUS_SAVER: toBool(process.env.STATUS_SAVER) || false,
    AUTO_REACT: toBool(process.env.AUTO_REACT) || false,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "KermLite~WxNiSmg1", // Put your session
-   HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
-   BOT_INFO: process.env.BOT_INFO || "Isaac🧑🏾‍🦱❤;Isaac lite⚡️;https://telegra.ph/file/3ac47cbad32a86aa12251.jpg", // YourName;BotName;Image/VideoLink
+   SESSION_ID: process.env.SESSION_ID || "KermLite~LSpLLNkY", // Put your session
+   HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[!]",
+   BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;KᴇʀᴍLɪᴛᴇ⚡️;https://telegra.ph/file/3ac47cbad32a86aa12251.jpg", // YourName;BotName;Image/VideoLink
    SUDO: process.env.SUDO || "237687654790",
    PRESENCE: process.env.PRESENCE || "unavailable", // "unavailable", "available", "composing", "recording", "paused"
-   CAPTION: process.env.CAPTION || "© Isaac",
+   CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
    ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
    BRANCH: "master",
    AUTHOR: process.env.AUTHOR || "Isaac🧑🏾‍🦱❤",
    ANTIWORD: process.env.ANTIWORD || "badword1,badword2,badword3",
-   PACKNAME: process.env.PACKNAME || "Isaac🧑🏾‍🦱❤",
-   WELCOME_MSG: process.env.WELCOME_MSG || "Hey @user cva toi? Bienvenue a @gname. Fait comme chez toi ☺",
-   GOODBYE_MSG: process.env.GOODBYE_MSG || "Ekie. Oooo @user comme tu pars sors ce n'est plus pour revenir hein. Tchipp😑",
+   PACKNAME: process.env.PACKNAME || "Isaac",
+   WELCOME_MSG: process.env.WELCOME_MSG || "Hey @user bienvenue dans @gname. Présentation stp🥲",
+   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hey @user C'était cool de te voir. Aplus",
    RMBG_KEY: process.env.RMBG_KEY || "",
    WORK_TYPE: process.env.WORK_TYPE || "private",
    DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || false,
